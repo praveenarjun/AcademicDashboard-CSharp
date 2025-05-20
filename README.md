@@ -68,7 +68,11 @@ A comprehensive **Student Enrollment System** designed and developed by a team o
 
 ## 📷 Screenshots / Demo
 
-> [Include screenshots of dashboards, forms, payment receipt pages, or link a demo walkthrough video if available]
+> ![image 1](https://github.com/user-attachments/assets/3a3fab60-a2c4-4387-ae2f-3e21975616b8)
+![image 2](https://github.com/user-attachments/assets/1201731d-ac20-4c66-9f83-92727f71107e)
+
+
+
 
 ---
 
