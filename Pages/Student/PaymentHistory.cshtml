@@ -1,0 +1,163 @@
+@page
+@model StudentEnrollmentSystem1.Pages.Student.PaymentHistoryModel
+@{
+    ViewData["Title"] = "Payment History";
+}
+
+<div class="container mt-4">
+    <div class="card mb-4">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Payment History & Receipts</h4>
+        </div>
+        <div class="card-body">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <p><strong>Student ID:</strong> @Model.StudentId</p>
+                    <p><strong>Name:</strong> @Model.StudentName</p>
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Branch:</strong> @Model.Branch</p>
+                    <p><strong>Total Amount Paid:</strong> ₹@Model.TotalAmountPaid.ToString("N2")</p>
+                </div>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Receipt #</th>
+                            <th>Description</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.PaymentHistory.Count > 0)
+                        {
+                            @foreach (var payment in Model.PaymentHistory)
+                            {
+                                <tr>
+                                    <td>@payment.PaymentDate.ToString("dd MMM yyyy")</td>
+                                    <td>@payment.ReceiptNumber</td>
+                                    <td>@payment.Description</td>
+                                    <td>₹@payment.Amount.ToString("N2")</td>
+                                    <td><span class="badge bg-success">@payment.PaymentStatus</span></td>
+                                    <td>
+                                        <button class="btn btn-sm btn-primary" onclick="printReceipt('@payment.PaymentId', '@payment.ReceiptNumber', '@payment.PaymentDate.ToString("dd MMM yyyy")', '@payment.Description', '@payment.Amount.ToString("N2")')">Print Receipt</button>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="6" class="text-center">No payment records found.</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Receipt Template (Hidden by default) -->
+    <div id="receipt-template" class="card mb-4 d-none">
+        <div class="card-header bg-light">
+            <h4 class="mb-0">Payment Receipt</h4>
+        </div>
+        <div class="card-body">
+            <div class="text-center mb-4">
+                <h3>IU University</h3>
+                <p>123 University Avenue, Education City</p>
+                <p>Phone: (123) 456-7890 | Email: finance@iu.edu</p>
+                <h5 class="mt-4">OFFICIAL RECEIPT</h5>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <p><strong>Receipt No:</strong> INV-@DateTime.Now.Year-@Model.StudentId</p>
+                    <p><strong>Date:</strong> @Model.PaymentDate.ToString("dd MMM yyyy")</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p><strong>Student ID:</strong> @Model.StudentId</p>
+                    <p><strong>Name:</strong> @Model.StudentName</p>
+                </div>
+            </div>
+
+            <div class="table-responsive mb-4">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th class="text-end">Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Course Fee - @Model.Branch</td>
+                            <td class="text-end">₹@Model.AmountPaid.ToString("N2")</td>
+                        </tr>
+                        <tr>
+                            <th>Total</th>
+                            <th class="text-end">₹@Model.AmountPaid.ToString("N2")</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>Payment Method:</strong> Online Payment</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p><strong>Status:</strong> Paid</p>
+                </div>
+            </div>
+
+            <div class="mt-5 pt-4 border-top">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Student Signature</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p>Authorized Signature</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 text-center mb-4">
+            <a asp-page="/Student/Dashboard" asp-route-studentId="@Model.StudentId" class="btn btn-primary">Back to
+                Dashboard</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function printReceipt() {
+            // Show the receipt template
+            $('#receipt-template').removeClass('d-none');
+
+            // Store the current page content
+            var originalContent = $('body').html();
+
+            // Replace the page content with just the receipt
+            var receiptContent = $('#receipt-template').html();
+            $('body').html('<div class="container mt-4">' + receiptContent + '</div>');
+
+            // Print the page
+            window.print();
+
+            // Restore the original content
+            $('body').html(originalContent);
+
+            // Hide the receipt template again
+            $('#receipt-template').addClass('d-none');
+        }
+    </script>
+}

@@ -1,0 +1,137 @@
+@page
+@model StudentEnrollmentSystem1.Pages.Student.ContactUsModel
+@{
+    ViewData["Title"] = "Contact Us";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card mb-4">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Contact Us</h4>
+                </div>
+                <div class="card-body">
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <strong>Success!</strong> @TempData["SuccessMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
+                    @if (TempData["ErrorMessage"] != null)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <strong>Error!</strong> @TempData["ErrorMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
+                    <form method="post">
+                        <div class="mb-3">
+                            <label asp-for="EnquiryType" class="form-label">Enquiry Type</label>
+                            <select asp-for="EnquiryType" class="form-select" required>
+                                <option value="">Select Enquiry Type</option>
+                                <option value="Contact">General Contact</option>
+                                <option value="Timetable">Timetable Issue</option>
+                                <option value="Evaluation">Course Evaluation</option>
+                                <option value="Technical">Technical Support</option>
+                                <option value="Financial">Financial Enquiry</option>
+                            </select>
+                            <span asp-validation-for="EnquiryType" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Subject" class="form-label">Subject</label>
+                            <input asp-for="Subject" class="form-control" required />
+                            <span asp-validation-for="Subject" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Message" class="form-label">Message</label>
+                            <textarea asp-for="Message" class="form-control" rows="5" required></textarea>
+                            <span asp-validation-for="Message" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary">Submit Enquiry</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-header bg-info text-white">
+                    <h5 class="mb-0">Previous Enquiries</h5>
+                </div>
+                <div class="card-body">
+                    @if (Model.PreviousEnquiries.Any())
+                    {
+                        <div class="list-group">
+                            @foreach (var enquiry in Model.PreviousEnquiries)
+                            {
+                                <div class="list-group-item list-group-item-action">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h6 class="mb-1">@enquiry.Subject</h6>
+                                        <small>@enquiry.SubmissionDate.ToString("dd MMM yyyy")</small>
+                                    </div>
+                                    <p class="mb-1 text-truncate">@enquiry.Message</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <small class="text-muted">@enquiry.EnquiryType</small>
+                                        <span class="badge @(enquiry.Status == "Resolved" ? "bg-success" : (enquiry.Status == "In Progress" ? "bg-warning" : "bg-secondary"))">
+                                            @enquiry.Status
+                                        </span>
+                                    </div>
+                                    @if (!string.IsNullOrEmpty(enquiry.Response))
+                                    {
+                                        <div class="mt-2 p-2 bg-light rounded">
+                                            <small><strong>Response:</strong> @enquiry.Response</small>
+                                        </div>
+                                    }
+                                </div>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="alert alert-info">
+                            You haven't submitted any enquiries yet.
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0">Contact Information</h5>
+                </div>
+                <div class="card-body">
+                    <p><i class="bi bi-geo-alt-fill me-2"></i> 123 University Avenue, Education City</p>
+                    <p><i class="bi bi-telephone-fill me-2"></i> (123) 456-7890</p>
+                    <p><i class="bi bi-envelope-fill me-2"></i> support@iu.edu</p>
+                    <p><i class="bi bi-clock-fill me-2"></i> Monday - Friday: 9:00 AM - 5:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 text-center mb-4">
+            <a asp-page="/Student/Dashboard" asp-route-studentId="@Model.StudentId" class="btn btn-primary">Back to Dashboard</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Auto-dismiss alerts after 5 seconds
+        $(document).ready(function() {
+            setTimeout(function() {
+                $(".alert-success, .alert-danger").alert('close');
+            }, 5000);
+        });
+    </script>
+}

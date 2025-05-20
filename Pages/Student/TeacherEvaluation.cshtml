@@ -1,0 +1,279 @@
+@page
+@model StudentEnrollmentSystem1.Pages.Student.TeacherEvaluationModel
+@{
+    ViewData["Title"] = "Teacher Evaluation";
+}
+
+<div class="container mt-4">
+    <div class="card mb-4">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Student Evaluation of Teaching</h4>
+        </div>
+        <div class="card-body">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <p><strong>Student ID:</strong> @Model.StudentId</p>
+                    <p><strong>Name:</strong> @Model.StudentName</p>
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Branch:</strong> @Model.Branch</p>
+                </div>
+            </div>
+
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>Success!</strong> @TempData["SuccessMessage"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <strong>Error!</strong> @TempData["ErrorMessage"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <div class="alert alert-info">
+                        <p>Your feedback helps us improve the quality of teaching. Please rate your instructors for the courses you are enrolled in. Your responses will be kept confidential.</p>
+                        <p><strong>Note:</strong> You can only submit one evaluation per course. Courses you've already evaluated won't appear in the dropdown.</p>
+                    </div>
+                </div>
+            </div>
+            
+            @if (Model.PreviousEvaluations.Any())
+            {
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header bg-primary text-white">
+                                <h5 class="mb-0">Your Previous Evaluations</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th>Course</th>
+                                                <th>Instructor</th>
+                                                <th>Overall Rating</th>
+                                                <th>Submitted On</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var eval in Model.PreviousEvaluations.OrderByDescending(e => e.SubmissionDate))
+                                            {
+                                                <tr>
+                                                    <td>@eval.CourseCode</td>
+                                                    <td>@eval.InstructorName</td>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="me-2">@eval.OverallRating/5</div>
+                                                            <div class="progress flex-grow-1" style="height: 10px;">
+                                                                <div class="progress-bar bg-success" role="progressbar" 
+                                                                     style="width: @(eval.OverallRating * 20)%;" 
+                                                                     aria-valuenow="@eval.OverallRating" aria-valuemin="0" aria-valuemax="5">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>@eval.SubmissionDate.ToString("MMM dd, yyyy")</td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            @if (Model.EnrolledCourses.Any())
+            {
+                <form method="post">
+                    <div class="mb-4">
+                        <label for="courseCode" class="form-label">Select Course to Evaluate</label>
+                        <select id="courseCode" name="CourseCode" class="form-select" required>
+                            <option value="">Select a Course</option>
+                            @foreach (var course in Model.EnrolledCourses)
+                            {
+                                <option value="@course.CourseCode">@course.CourseCode - @course.CourseName (@course.Instructor)</option>
+                            }
+                        </select>
+                    </div>
+
+                    <div class="card mb-4">
+                        <div class="card-header bg-light">
+                            <h5 class="mb-0">Evaluation Criteria</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <label class="form-label">Teaching Quality</label>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="me-2">Poor</span>
+                                    <div class="btn-group" role="group" aria-label="Teaching Rating">
+                                        <input type="radio" class="btn-check" name="TeachingRating" id="teaching1" value="1" required>
+                                        <label class="btn btn-outline-danger" for="teaching1">1</label>
+                                        
+                                        <input type="radio" class="btn-check" name="TeachingRating" id="teaching2" value="2">
+                                        <label class="btn btn-outline-warning" for="teaching2">2</label>
+                                        
+                                        <input type="radio" class="btn-check" name="TeachingRating" id="teaching3" value="3">
+                                        <label class="btn btn-outline-secondary" for="teaching3">3</label>
+                                        
+                                        <input type="radio" class="btn-check" name="TeachingRating" id="teaching4" value="4">
+                                        <label class="btn btn-outline-primary" for="teaching4">4</label>
+                                        
+                                        <input type="radio" class="btn-check" name="TeachingRating" id="teaching5" value="5">
+                                        <label class="btn btn-outline-success" for="teaching5">5</label>
+                                    </div>
+                                    <span class="ms-2">Excellent</span>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Course Content</label>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="me-2">Poor</span>
+                                    <div class="btn-group" role="group" aria-label="Content Rating">
+                                        <input type="radio" class="btn-check" name="ContentRating" id="content1" value="1" required>
+                                        <label class="btn btn-outline-danger" for="content1">1</label>
+                                        
+                                        <input type="radio" class="btn-check" name="ContentRating" id="content2" value="2">
+                                        <label class="btn btn-outline-warning" for="content2">2</label>
+                                        
+                                        <input type="radio" class="btn-check" name="ContentRating" id="content3" value="3">
+                                        <label class="btn btn-outline-secondary" for="content3">3</label>
+                                        
+                                        <input type="radio" class="btn-check" name="ContentRating" id="content4" value="4">
+                                        <label class="btn btn-outline-primary" for="content4">4</label>
+                                        
+                                        <input type="radio" class="btn-check" name="ContentRating" id="content5" value="5">
+                                        <label class="btn btn-outline-success" for="content5">5</label>
+                                    </div>
+                                    <span class="ms-2">Excellent</span>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Assessment Methods</label>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="me-2">Poor</span>
+                                    <div class="btn-group" role="group" aria-label="Assessment Rating">
+                                        <input type="radio" class="btn-check" name="AssessmentRating" id="assessment1" value="1" required>
+                                        <label class="btn btn-outline-danger" for="assessment1">1</label>
+                                        
+                                        <input type="radio" class="btn-check" name="AssessmentRating" id="assessment2" value="2">
+                                        <label class="btn btn-outline-warning" for="assessment2">2</label>
+                                        
+                                        <input type="radio" class="btn-check" name="AssessmentRating" id="assessment3" value="3">
+                                        <label class="btn btn-outline-secondary" for="assessment3">3</label>
+                                        
+                                        <input type="radio" class="btn-check" name="AssessmentRating" id="assessment4" value="4">
+                                        <label class="btn btn-outline-primary" for="assessment4">4</label>
+                                        
+                                        <input type="radio" class="btn-check" name="AssessmentRating" id="assessment5" value="5">
+                                        <label class="btn btn-outline-success" for="assessment5">5</label>
+                                    </div>
+                                    <span class="ms-2">Excellent</span>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Communication Skills</label>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="me-2">Poor</span>
+                                    <div class="btn-group" role="group" aria-label="Communication Rating">
+                                        <input type="radio" class="btn-check" name="CommunicationRating" id="communication1" value="1" required>
+                                        <label class="btn btn-outline-danger" for="communication1">1</label>
+                                        
+                                        <input type="radio" class="btn-check" name="CommunicationRating" id="communication2" value="2">
+                                        <label class="btn btn-outline-warning" for="communication2">2</label>
+                                        
+                                        <input type="radio" class="btn-check" name="CommunicationRating" id="communication3" value="3">
+                                        <label class="btn btn-outline-secondary" for="communication3">3</label>
+                                        
+                                        <input type="radio" class="btn-check" name="CommunicationRating" id="communication4" value="4">
+                                        <label class="btn btn-outline-primary" for="communication4">4</label>
+                                        
+                                        <input type="radio" class="btn-check" name="CommunicationRating" id="communication5" value="5">
+                                        <label class="btn btn-outline-success" for="communication5">5</label>
+                                    </div>
+                                    <span class="ms-2">Excellent</span>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Overall Rating</label>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="me-2">Poor</span>
+                                    <div class="btn-group" role="group" aria-label="Overall Rating">
+                                        <input type="radio" class="btn-check" name="OverallRating" id="overall1" value="1" required>
+                                        <label class="btn btn-outline-danger" for="overall1">1</label>
+                                        
+                                        <input type="radio" class="btn-check" name="OverallRating" id="overall2" value="2">
+                                        <label class="btn btn-outline-warning" for="overall2">2</label>
+                                        
+                                        <input type="radio" class="btn-check" name="OverallRating" id="overall3" value="3">
+                                        <label class="btn btn-outline-secondary" for="overall3">3</label>
+                                        
+                                        <input type="radio" class="btn-check" name="OverallRating" id="overall4" value="4">
+                                        <label class="btn btn-outline-primary" for="overall4">4</label>
+                                        
+                                        <input type="radio" class="btn-check" name="OverallRating" id="overall5" value="5">
+                                        <label class="btn btn-outline-success" for="overall5">5</label>
+                                    </div>
+                                    <span class="ms-2">Excellent</span>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="comments" class="form-label">Additional Comments</label>
+                                <textarea id="comments" name="Comments" class="form-control" rows="4"></textarea>
+                            </div>
+
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" id="isAnonymous" name="IsAnonymous" checked>
+                                <label class="form-check-label" for="isAnonymous">
+                                    Submit this evaluation anonymously
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary">Submit Evaluation</button>
+                    </div>
+                </form>
+            }
+            else
+            {
+                <div class="alert alert-warning">
+                    <p>You are not enrolled in any courses yet. Please enroll in courses before submitting evaluations.</p>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 text-center mb-4">
+            <a asp-page="/Student/Dashboard" asp-route-studentId="@Model.StudentId" class="btn btn-primary">Back to Dashboard</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Auto-dismiss alerts after 5 seconds
+        $(document).ready(function() {
+            setTimeout(function() {
+                $(".alert-success, .alert-danger").alert('close');
+            }, 5000);
+        });
+    </script>
+}

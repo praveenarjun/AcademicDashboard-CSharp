@@ -1,0 +1,246 @@
+@page
+@model StudentEnrollmentSystem1.Pages.Student.TimetableMatchingModel
+@{
+    ViewData["Title"] = "Timetable Matching";
+}
+
+<div class="container mt-4">
+    <div class="card mb-4">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Timetable Matching</h4>
+        </div>
+        <div class="card-body">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <p><strong>Student ID:</strong> @Model.StudentId</p>
+                    <p><strong>Name:</strong> @Model.StudentName</p>
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Branch:</strong> @Model.Branch</p>
+                    <p><strong>Total Credits:</strong> @Model.TotalCredits</p>
+                </div>
+            </div>
+
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>Success!</strong> @TempData["SuccessMessage"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <strong>Error!</strong> @TempData["ErrorMessage"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <div class="alert alert-info">
+                        <p>This tool helps you find courses that fit your schedule. Select your preferred days and time slots, and we'll show you available courses that match your criteria.</p>
+                        <p><strong>Note:</strong> If you already have courses in your timetable, we'll automatically check for conflicts and only show courses that don't overlap with your existing schedule.</p>
+                    </div>
+                </div>
+            </div>
+            
+            @if (Model.CurrentTimetable.Any())
+            {
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header bg-primary text-white">
+                                <h5 class="mb-0">Your Current Timetable</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th>Day</th>
+                                                <th>Time Slot</th>
+                                                <th>Course</th>
+                                                <th>Room</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var entry in Model.CurrentTimetable.OrderBy(t => t.Day).ThenBy(t => t.TimeSlot))
+                                            {
+                                                <tr>
+                                                    <td>@entry.Day</td>
+                                                    <td>@entry.TimeSlot</td>
+                                                    <td>@entry.CourseCode - @entry.CourseName</td>
+                                                    <td>@entry.Room</td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            <form method="post">
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header bg-info text-white">
+                                <h5 class="mb-0">Preferred Days</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="monday" name="SelectedDays" value="Monday" checked="@Model.SelectedDays.Contains("Monday")">
+                                    <label class="form-check-label" for="monday">Monday</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="tuesday" name="SelectedDays" value="Tuesday" checked="@Model.SelectedDays.Contains("Tuesday")">
+                                    <label class="form-check-label" for="tuesday">Tuesday</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="wednesday" name="SelectedDays" value="Wednesday" checked="@Model.SelectedDays.Contains("Wednesday")">
+                                    <label class="form-check-label" for="wednesday">Wednesday</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="thursday" name="SelectedDays" value="Thursday" checked="@Model.SelectedDays.Contains("Thursday")">
+                                    <label class="form-check-label" for="thursday">Thursday</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="friday" name="SelectedDays" value="Friday" checked="@Model.SelectedDays.Contains("Friday")">
+                                    <label class="form-check-label" for="friday">Friday</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header bg-info text-white">
+                                <h5 class="mb-0">Preferred Time Slots</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="slot1" name="SelectedTimeSlots" value="09:00-10:00" checked="@Model.SelectedTimeSlots.Contains("09:00-10:00")">
+                                    <label class="form-check-label" for="slot1">09:00 - 10:00</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="slot2" name="SelectedTimeSlots" value="10:00-11:00" checked="@Model.SelectedTimeSlots.Contains("10:00-11:00")">
+                                    <label class="form-check-label" for="slot2">10:00 - 11:00</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="slot3" name="SelectedTimeSlots" value="11:00-12:00" checked="@Model.SelectedTimeSlots.Contains("11:00-12:00")">
+                                    <label class="form-check-label" for="slot3">11:00 - 12:00</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="slot4" name="SelectedTimeSlots" value="12:00-13:00" checked="@Model.SelectedTimeSlots.Contains("12:00-13:00")">
+                                    <label class="form-check-label" for="slot4">12:00 - 13:00</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="slot5" name="SelectedTimeSlots" value="13:00-14:00" checked="@Model.SelectedTimeSlots.Contains("13:00-14:00")">
+                                    <label class="form-check-label" for="slot5">13:00 - 14:00</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="slot6" name="SelectedTimeSlots" value="14:00-15:00" checked="@Model.SelectedTimeSlots.Contains("14:00-15:00")">
+                                    <label class="form-check-label" for="slot6">14:00 - 15:00</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="slot7" name="SelectedTimeSlots" value="15:00-16:00" checked="@Model.SelectedTimeSlots.Contains("15:00-16:00")">
+                                    <label class="form-check-label" for="slot7">15:00 - 16:00</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="slot8" name="SelectedTimeSlots" value="16:00-17:00" checked="@Model.SelectedTimeSlots.Contains("16:00-17:00")">
+                                    <label class="form-check-label" for="slot8">16:00 - 17:00</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary">Find Matching Courses</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            @if (Model.HasSearched)
+            {
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header bg-success text-white">
+                                <h5 class="mb-0">Matching Courses</h5>
+                            </div>
+                            <div class="card-body">
+                                @if (Model.MatchingCourses.Any())
+                                {
+                                    <div class="table-responsive">
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Course Code</th>
+                                                    <th>Course Name</th>
+                                                    <th>Credits</th>
+                                                    <th>Schedule</th>
+                                                    <th>Instructor</th>
+                                                    <th>Room</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var course in Model.MatchingCourses)
+                                                {
+                                                    <tr>
+                                                        <td>@course.CourseCode</td>
+                                                        <td>@course.CourseName</td>
+                                                        <td>@course.Credits</td>
+                                                        <td>@course.Schedule</td>
+                                                        <td>@course.Instructor</td>
+                                                        <td>@course.Room</td>
+                                                        <td>
+                                                            <form method="post" asp-page="/Student/CourseRegistration" asp-page-handler="EnrollCourse" asp-route-studentId="@Model.StudentId" asp-route-courseCode="@course.CourseCode" onsubmit="return confirm('Are you sure you want to enroll in this course?');">
+                                                                <button type="submit" class="btn btn-sm btn-success">Enroll Now</button>
+                                                            </form>
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="alert alert-warning">
+                                        <p>No courses match your selected criteria. Try selecting different days or time slots.</p>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 text-center mb-4">
+            <a asp-page="/Student/Dashboard" asp-route-studentId="@Model.StudentId" class="btn btn-primary">Back to Dashboard</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Auto-dismiss alerts after 5 seconds
+        $(document).ready(function() {
+            setTimeout(function() {
+                $(".alert-success, .alert-danger").alert('close');
+            }, 5000);
+        });
+    </script>
+}

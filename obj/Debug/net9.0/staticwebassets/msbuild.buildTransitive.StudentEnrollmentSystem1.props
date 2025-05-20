@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/StudentEnrollmentSystem1.props" />
+</Project>

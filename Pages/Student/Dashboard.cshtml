@@ -1,0 +1,193 @@
+@page
+@model StudentEnrollmentSystem1.Pages.Student.DashboardModel
+@{
+    ViewData["Title"] = "Student Dashboard";
+}
+
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Welcome to Online Enrollment Portal!</h4>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><strong>Student ID:</strong> @Model.StudentId</p>
+                            <p><strong>Name:</strong> @Model.StudentName</p>
+                            <p><strong>Email:</strong> @Model.StudentEmail</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><strong>Branch:</strong> @Model.Branch</p>
+                            <p><strong>Registration Date:</strong> @Model.RegistrationDate.ToString("dd MMM yyyy")</p>
+                            <p><strong>Payment Status:</strong> <span
+                                    class="badge @(Model.PaymentStatus ? "bg-success" : "bg-warning")">@(Model.PaymentStatus
+                                                                        ? "Paid" : "Pending")</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- 1. Enrollment -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">1. Online Enrollment Portal</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a href="#" class="text-decoration-none">Enrollment</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. Add/Drop Course -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0">2. Add/Drop Course Enrollment</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a asp-page="/Student/CourseRegistration" asp-route-studentId="@Model.StudentId"
+                                class="text-decoration-none">2.1 Course Add/Drop</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a asp-page="/Student/Timetable" asp-route-studentId="@Model.StudentId"
+                                class="text-decoration-none">2.2 Add/Drop History</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. Enquiry -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-header bg-info text-white">
+                    <h5 class="mb-0">3. Enquiry</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a asp-page="/Student/ContactUs" asp-route-studentId="@Model.StudentId"
+                                class="text-decoration-none">3.1 Contact Us</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a asp-page="/Student/TimetableMatching" asp-route-studentId="@Model.StudentId"
+                                class="text-decoration-none">3.2 Timetable Matching</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a asp-page="/Student/TeacherEvaluation" asp-route-studentId="@Model.StudentId"
+                                class="text-decoration-none">3.3 Student Evaluation of Teaching</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. Statement -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-header bg-warning text-dark">
+                    <h5 class="mb-0">4. Statement</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a href="#" class="text-decoration-none">4.1 Student Statement</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a asp-page="/Student/Timetable" asp-route-studentId="@Model.StudentId"
+                                class="text-decoration-none">4.2 Registration Summary / Class Timetable</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5. Payment -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-header bg-danger text-white">
+                    <h5 class="mb-0">5. Payment</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a href="#" class="text-decoration-none">5.1 Payment</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a asp-page="/Student/PaymentHistory" asp-route-studentId="@Model.StudentId"
+                                class="text-decoration-none">5.2 Online Payment History / Receipt</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#" class="text-decoration-none">5.3 Invoice and Adjustment Note</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 6. Account -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-header bg-secondary text-white">
+                    <h5 class="mb-0">6. Account</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a asp-page="/Student/Profile" asp-route-studentId="@Model.StudentId" asp-fragment="password" class="text-decoration-none">6.1 Change Password</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a asp-page="/Student/Profile" asp-route-studentId="@Model.StudentId" asp-fragment="profile" class="text-decoration-none">6.2 Update Profile</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a asp-page="/Student/Profile" asp-route-studentId="@Model.StudentId" asp-fragment="bank" class="text-decoration-none">6.3 Update Bank Details</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">Recent Announcements</h5>
+                </div>
+                <div class="card-body">
+                    <div class="alert alert-info">
+                        <h6>Course Registration Open</h6>
+                        <p>Course registration for the upcoming semester is now open. Please register before the
+                            deadline.</p>
+                        <small>Posted on: @DateTime.Now.AddDays(-2).ToString("dd MMM yyyy")</small>
+                    </div>
+                    <div class="alert alert-warning">
+                        <h6>Fee Payment Reminder</h6>
+                        <p>This is a reminder to clear all outstanding fees before the end of the month.</p>
+                        <small>Posted on: @DateTime.Now.AddDays(-5).ToString("dd MMM yyyy")</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Add any dashboard-specific JavaScript here
+        });
+    </script>
+}

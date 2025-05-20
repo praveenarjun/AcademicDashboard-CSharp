@@ -1,0 +1,131 @@
+@page
+@model StudentEnrollmentSystem1.Pages.Student.TimetableModel
+@{
+    ViewData["Title"] = "Class Timetable";
+}
+
+<div class="container mt-4">
+    <div class="card mb-4">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Student Timetable</h4>
+        </div>
+        <div class="card-body">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <p><strong>Student ID:</strong> @Model.StudentId</p>
+                    <p><strong>Name:</strong> @Model.StudentName</p>
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Branch:</strong> @Model.Branch</p>
+                    <p><strong>Total Credits:</strong> @Model.TotalCredits</p>
+                </div>
+            </div>
+
+            @if (Model.EnrolledCourses.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead class="table-primary">
+                            <tr>
+                                <th>Time</th>
+                                <th>Monday</th>
+                                <th>Tuesday</th>
+                                <th>Wednesday</th>
+                                <th>Thursday</th>
+                                <th>Friday</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var timeSlot in Model.TimeSlots)
+                            {
+                                <tr>
+                                    <td class="table-light"><strong>@timeSlot</strong></td>
+                                    @foreach (var day in Model.Days)
+                                    {
+                                        <td>
+                                            @{
+                                                var course = Model.Timetable.FirstOrDefault(t =>
+                                                t.Day == day &&
+                                                t.TimeSlot == timeSlot);
+
+                                                if (course != null)
+                                                {
+                                                    <div class="p-2 bg-info bg-opacity-25 rounded">
+                                                        <strong>@course.CourseCode</strong><br />
+                                                        @course.CourseName<br />
+                                                        <small>Room: @course.Room</small>
+                                                    </div>
+                                                }
+                                            }
+                                        </td>
+                                    }
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-info">
+                    <p>You haven't enrolled in any courses yet. Please go to the Course Registration page to enroll in
+                        courses.</p>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header bg-success text-white">
+            <h4 class="mb-0">Enrolled Courses</h4>
+        </div>
+        <div class="card-body">
+            @if (Model.EnrolledCourses.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Course Code</th>
+                                <th>Course Name</th>
+                                <th>Credits</th>
+                                <th>Schedule</th>
+                                <th>Instructor</th>
+                                <th>Room</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var course in Model.EnrolledCourseDetails)
+                            {
+                                <tr>
+                                    <td>@course.CourseCode</td>
+                                    <td>@course.CourseName</td>
+                                    <td>@course.Credits</td>
+                                    <td>@course.Schedule</td>
+                                    <td>@course.Instructor</td>
+                                    <td>@course.Room</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-info">
+                    <p>You haven't enrolled in any courses yet.</p>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 text-center mb-4">
+            <a asp-page="/Student/CourseRegistration" asp-route-studentId="@Model.StudentId"
+                class="btn btn-secondary">Back to Course Registration</a>
+            <a asp-page="/Student/Dashboard" asp-route-studentId="@Model.StudentId"
+                class="btn btn-primary">Back to Dashboard</a>
+            <a asp-page="/Index" class="btn btn-success">Go to Home Page</a>
+        </div>
+    </div>
+</div>

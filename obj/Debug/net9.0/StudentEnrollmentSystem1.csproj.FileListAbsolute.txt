@@ -1,0 +1,313 @@
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/appsettings.Development.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/appsettings.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/StudentEnrollmentSystem1.staticwebassets.runtime.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/StudentEnrollmentSystem1.staticwebassets.endpoints.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/StudentEnrollmentSystem1
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/StudentEnrollmentSystem1.deps.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/StudentEnrollmentSystem1.runtimeconfig.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/StudentEnrollmentSystem1.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/StudentEnrollmentSystem1.pdb
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/StudentEnrollmentSystem1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/StudentEnrollmentSystem1.AssemblyInfoInputs.cache
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/StudentEnrollmentSystem1.AssemblyInfo.cs
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/StudentEnrollmentSystem1.csproj.CoreCompileInputs.cache
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/StudentEnrollmentSystem1.MvcApplicationPartsAssemblyInfo.cache
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/StudentEnrollmentSystem1.RazorAssemblyInfo.cache
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/StudentEnrollmentSystem1.RazorAssemblyInfo.cs
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/scopedcss/bundle/StudentEnrollmentSystem1.styles.css
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/scopedcss/projectbundle/StudentEnrollmentSystem1.bundle.scp.css
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/b2gdmx5jkn-61n19gt1b8.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/my5dlsf8ed-xtxxf3hu2r.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/2zhxjszkt8-bqjiyaj88i.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/gyd8zl40nw-c2jlpeoesf.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/3tudzpb3uy-erw9l3u2r3.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/abbl6lwgpe-aexeepp0ev.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/s21iftryn5-d7shbmvgxk.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/bg4uvbxjhy-ausgxo2sd3.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/hcezpeubck-k8d9w2qqmf.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/zc69h6i7qz-cosvhxvwiu.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/1mmw12tuco-ub07r2b239.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/cxqmkukb76-fvhpjtyr6v.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/xdh7j8nmvt-b7pk76d08c.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/5h9dlsn9fu-fsbi9cje9m.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/ips8s927oi-rzd6atqjts.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/tu5k7neywo-ee0r1s7dh0.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/wok1np9q7k-dxx9fxp4il.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/88tohzppql-jd9uben2k1.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/mmse5u95ml-khv3u5hwcm.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/t1qc2ym90d-r4e9w2rdcm.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/h1xc9wnu7u-lcd1t2u6c8.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/hqclwsww1m-c2oey78nd0.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/u48z7bchcv-tdbxkamptv.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/ak1reso5c8-j5mq2jizvt.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/ymxndox7ow-06098lyss8.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/drkykum5ed-nvvlpmu67g.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/51i5bp04vn-s35ty4nyc5.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/bkpy00bkv3-pj5nd1wqec.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/3kvvvc887g-46ein0sx1k.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/o9khhtcyk1-v0zj4ognzu.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/bjxfxt14cf-37tfw0ft22.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/ki8hhb85pi-hrwsygsryq.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/dqp6655nek-pk9g2wxc8p.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/kp88i25fn6-ft3s53vfgj.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/lgh96uqm3v-6cfz1n2cew.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/sup4mzm2jk-6pdc2jztkx.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/rxxbo2ekyg-493y06b0oq.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/l7je6s1rrs-iovd86k7lj.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/3ez5bz09op-vr1egmr9el.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/40rr7ykldd-kbrnm935zg.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/r9vxuiwdkb-jj8uyg4cgr.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/jvwffio8a0-y7v9cxd14o.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/hgqmo78ux8-notf2xhcfb.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/8t658wihh2-h1s4sie4z3.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/0uqh2rtarx-63fj8s7r0e.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/ivcwao5pkb-0j3bgjxly4.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/ocjvdpry0b-47otxtyo56.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/7vhq5rlxxv-4v8eqarkd7.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/78galkvw0o-356vix0kms.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/ot5r42a3hz-83jwlth58m.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/e18zatw0at-mrlpezrjn3.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/f809ijbehs-lzl9nlhx6b.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/tujsilb6qn-ag7o75518u.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/cdc9k6t12f-x0q3zqp4vz.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/moth7jmyrt-0i3buxo5is.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/dpuh691ean-o1o13a6vjx.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/i1bdpsoci7-ttgo8qnofa.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/4llxq453w8-2z0ns9nrw6.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/2qw34k93dg-muycvpuwrr.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/mcwjet3gj4-87fc7y1x7t.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/oakj4c2hyc-mlv21k5csn.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/tbwk21qm5q-i0j7tlam80.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/fbdi3rk2pz-i0j7tlam80.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/staticwebassets.build.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/staticwebassets.development.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/staticwebassets/msbuild.StudentEnrollmentSystem1.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/staticwebassets/msbuild.StudentEnrollmentSystem1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/staticwebassets/msbuild.build.StudentEnrollmentSystem1.props
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.StudentEnrollmentSystem1.props
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.StudentEnrollmentSystem1.props
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/staticwebassets.pack.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/StudentEnrollmentSystem1.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/refint/StudentEnrollmentSystem1.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/StudentEnrollmentSystem1.pdb
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/StudentEnrollmentSystem1.genruntimeconfig.cache
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/ref/StudentEnrollmentSystem1.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/compressed/zkibvghi03-2paxvbaod9.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/StudentEnrollmentSystem1.csproj.AssemblyReference.cache
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/Humanizer.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/Microsoft.Data.Sqlite.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/Mono.TextTemplating.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/MySqlConnector.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/SQLitePCLRaw.batteries_v2.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/SQLitePCLRaw.core.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/System.CodeDom.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/System.Composition.Convention.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/System.Composition.Hosting.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/System.Composition.Runtime.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/browser-wasm/nativeassets/net8.0/e_sqlite3.a
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/linux-ppc64le/native/libe_sqlite3.so
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/linux-s390x/native/libe_sqlite3.so
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/obj/Debug/net9.0/StudentE.08B0930B.Up2Date
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/BouncyCastle.Cryptography.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/Google.Protobuf.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/K4os.Compression.LZ4.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/K4os.Compression.LZ4.Streams.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/K4os.Hash.xxHash.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/MySql.Data.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/System.Security.Permissions.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/System.Windows.Extensions.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/ZstdSharp.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/win-x64/native/comerr64.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/win-x64/native/gssapi64.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/win-x64/native/k5sprt64.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/win-x64/native/krb5_64.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/win-x64/native/krbcc64.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1/bin/Debug/net9.0/runtimes/win/lib/net8.0/System.Windows.Extensions.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /bin/Debug/net9.0/appsettings.Development.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /bin/Debug/net9.0/appsettings.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /bin/Debug/net9.0/StudentEnrollmentSystem1.staticwebassets.endpoints.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /bin/Debug/net9.0/StudentEnrollmentSystem1.staticwebassets.runtime.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /bin/Debug/net9.0/StudentEnrollmentSystem1
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /bin/Debug/net9.0/StudentEnrollmentSystem1.deps.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /bin/Debug/net9.0/StudentEnrollmentSystem1.runtimeconfig.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /bin/Debug/net9.0/StudentEnrollmentSystem1.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /bin/Debug/net9.0/StudentEnrollmentSystem1.pdb
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/StudentEnrollmentSystem1.csproj.AssemblyReference.cache
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/StudentEnrollmentSystem1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/StudentEnrollmentSystem1.AssemblyInfoInputs.cache
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/StudentEnrollmentSystem1.AssemblyInfo.cs
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/StudentEnrollmentSystem1.csproj.CoreCompileInputs.cache
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/StudentEnrollmentSystem1.MvcApplicationPartsAssemblyInfo.cache
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/StudentEnrollmentSystem1.RazorAssemblyInfo.cache
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/StudentEnrollmentSystem1.RazorAssemblyInfo.cs
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/scopedcss/bundle/StudentEnrollmentSystem1.styles.css
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/scopedcss/projectbundle/StudentEnrollmentSystem1.bundle.scp.css
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/zkibvghi03-2paxvbaod9.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/b2gdmx5jkn-61n19gt1b8.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/my5dlsf8ed-xtxxf3hu2r.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/2zhxjszkt8-bqjiyaj88i.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/gyd8zl40nw-c2jlpeoesf.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/3tudzpb3uy-erw9l3u2r3.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/abbl6lwgpe-aexeepp0ev.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/s21iftryn5-d7shbmvgxk.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/bg4uvbxjhy-ausgxo2sd3.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/hcezpeubck-k8d9w2qqmf.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/zc69h6i7qz-cosvhxvwiu.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/1mmw12tuco-ub07r2b239.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/cxqmkukb76-fvhpjtyr6v.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/xdh7j8nmvt-b7pk76d08c.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/5h9dlsn9fu-fsbi9cje9m.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/ips8s927oi-rzd6atqjts.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/tu5k7neywo-ee0r1s7dh0.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/wok1np9q7k-dxx9fxp4il.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/88tohzppql-jd9uben2k1.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/mmse5u95ml-khv3u5hwcm.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/t1qc2ym90d-r4e9w2rdcm.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/h1xc9wnu7u-lcd1t2u6c8.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/hqclwsww1m-c2oey78nd0.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/u48z7bchcv-tdbxkamptv.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/ak1reso5c8-j5mq2jizvt.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/ymxndox7ow-06098lyss8.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/drkykum5ed-nvvlpmu67g.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/51i5bp04vn-s35ty4nyc5.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/bkpy00bkv3-pj5nd1wqec.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/3kvvvc887g-46ein0sx1k.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/o9khhtcyk1-v0zj4ognzu.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/bjxfxt14cf-37tfw0ft22.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/ki8hhb85pi-hrwsygsryq.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/dqp6655nek-pk9g2wxc8p.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/kp88i25fn6-ft3s53vfgj.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/lgh96uqm3v-6cfz1n2cew.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/sup4mzm2jk-6pdc2jztkx.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/rxxbo2ekyg-493y06b0oq.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/l7je6s1rrs-iovd86k7lj.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/3ez5bz09op-vr1egmr9el.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/40rr7ykldd-kbrnm935zg.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/r9vxuiwdkb-jj8uyg4cgr.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/jvwffio8a0-y7v9cxd14o.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/hgqmo78ux8-notf2xhcfb.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/8t658wihh2-h1s4sie4z3.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/0uqh2rtarx-63fj8s7r0e.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/ivcwao5pkb-0j3bgjxly4.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/ocjvdpry0b-47otxtyo56.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/7vhq5rlxxv-4v8eqarkd7.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/78galkvw0o-356vix0kms.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/ot5r42a3hz-83jwlth58m.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/e18zatw0at-mrlpezrjn3.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/f809ijbehs-lzl9nlhx6b.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/tujsilb6qn-ag7o75518u.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/cdc9k6t12f-x0q3zqp4vz.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/moth7jmyrt-0i3buxo5is.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/dpuh691ean-o1o13a6vjx.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/i1bdpsoci7-ttgo8qnofa.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/4llxq453w8-2z0ns9nrw6.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/2qw34k93dg-muycvpuwrr.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/mcwjet3gj4-87fc7y1x7t.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/oakj4c2hyc-mlv21k5csn.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/tbwk21qm5q-i0j7tlam80.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/compressed/fbdi3rk2pz-i0j7tlam80.gz
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/staticwebassets.build.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/staticwebassets.development.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/staticwebassets/msbuild.StudentEnrollmentSystem1.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/staticwebassets/msbuild.StudentEnrollmentSystem1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/staticwebassets/msbuild.build.StudentEnrollmentSystem1.props
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.StudentEnrollmentSystem1.props
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.StudentEnrollmentSystem1.props
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/staticwebassets.pack.json
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/StudentE.08B0930B.Up2Date
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/StudentEnrollmentSystem1.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/refint/StudentEnrollmentSystem1.dll
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/StudentEnrollmentSystem1.pdb
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/StudentEnrollmentSystem1.genruntimeconfig.cache
+/Users/praveenchalla/Downloads/StudentEnrollmentSystem1 /obj/Debug/net9.0/ref/StudentEnrollmentSystem1.dll
